@@ -10,6 +10,7 @@ namespace csdemo01
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Jai Shri Mataji...");
         }
     }
 }
