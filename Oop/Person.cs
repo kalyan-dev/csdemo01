@@ -18,6 +18,8 @@ namespace csdemo01.Oop
 
         static void Main(string[] args)
         {
+
+            // We can create objects in this way, ONLY WHEN there is no Constructor in the class;
             Person p1 = new Person { name= "James", email="abc@xyz.com" };
 
             var p2 = new Person { email = "xyz@abc.com", name = "Kevin" };

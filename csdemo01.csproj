@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>csdemo01.Oop.inhDemo</StartupObject>
+    <StartupObject>csdemo01.Library1.ObjectDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,12 @@
     <Compile Include="Factors.cs" />
     <Compile Include="FuncDemo.cs" />
     <Compile Include="HighPrices.cs" />
+    <Compile Include="Library1\DataTimeDemo.cs" />
+    <Compile Include="Library1\ObjectDemo.cs" />
+    <Compile Include="Library1\ReadNames.cs" />
+    <Compile Include="Library1\StringVertical.cs" />
+    <Compile Include="Library1\TotalMarks.cs" />
+    <Compile Include="Library1\WriteNames.cs" />
     <Compile Include="Oop\Account.cs" />
     <Compile Include="Oop\inhDemo.cs" />
     <Compile Include="Oop\Person.cs" />
@@ -58,6 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="misc\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
