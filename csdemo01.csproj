@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>csdemo01.Library1.ObjectDemo</StartupObject>
+    <StartupObject>csdemo01.Advanced.StackDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Advanced\AnonymousDemo.cs" />
+    <Compile Include="Advanced\DelegateDemo.cs" />
+    <Compile Include="Advanced\DynamicVarDemo.cs" />
+    <Compile Include="Advanced\ExtensionMethodsDemo.cs" />
+    <Compile Include="Advanced\FindAllDemo.cs" />
+    <Compile Include="Advanced\StackDemo.cs" />
     <Compile Include="Factors.cs" />
     <Compile Include="FuncDemo.cs" />
     <Compile Include="HighPrices.cs" />
